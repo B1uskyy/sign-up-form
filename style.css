@@ -1,0 +1,29 @@
+:root {
+    height: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.split-page {
+    display: flex;
+}
+
+.form-wrapper {
+    height: 100%;
+    width: 70vw;
+}
+
+.image-background {
+    height: 100vh;
+    width: 40vw;
+    overflow: hidden;
+    margin-left: 0;
+}
+
+.image-background img {
+    max-width: 100vw; /* Make sure the image doesn't exceed the width of the container */
+    height: 100vh; /* Maintain the image's aspect ratio */
+    
+}
